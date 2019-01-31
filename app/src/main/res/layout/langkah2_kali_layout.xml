@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround"
+        android:orientation="vertical"
+        tools:context=".Langkah2Kali">
+    <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_marginTop="48dp"
+            android:text="Langkah-Langkah Install Kali Linux"/>
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="58dp"
+            >
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  1.	Colok USB atau masukan cd kali linux yang sudah di burn tadi. masuk kebios setting boot priority menjadi boot from usb atau boot from cd-room."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  2.	Kalau berhasil maka akan muncul gambar seperti dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  3.	Pilih Graphical install lalu tekan enter "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  4. Maka akan melakukan loading dan akan muncul untuk memilih bahasa yang akan kita gunakan seperti contoh "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  5. Klik continue untuk melanjutkan maka akan tampil Select your location gunanya untuk memilih lokasi  "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  6. Continue lagi untuk melanjutkan sehingga kita disuruh untuk memilih jenis keyboard yang kita gunakan, rata-rata jenis diindonesia adalah American English"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  7. Setelah kita klik continue kita akan akan melihat proses configure the network dan load components from cd Seperti gambar berikut dibawah ini yaah.  "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  8. Kita biarkan saja proses diatas jangan diganggu sampai muncul seperti dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  9. Pada gambar diatas kita disuruh memberi nama host terserah kalian mau dikasih nama apa. kalau sudah langsung klik continue dan akan muncul gambar dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  10. Gambar diatas kita disuruh untuk membuat password kali linux kita, password terserah teman-teman yang penting teman-teman ingat soalnya password ini untuk login ke kali linux kita nanti. Jika sudah selesai silahkan kli continue maka akan muncul proses untuk mengatur waktu seperti dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  11.	Biarkan proses diatas berjalan sampai muncul seperti gambar dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  12. Gambar diatas kita disuruh memilih waktu tempat tinggal kita, terserah mau milih yang mana tapi karna kita diindonesia ane akan memilih pacific . silahkan klik continue"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  13.	Gambar diatas kita disuruh untuk memilih partisi, pada tahap ini hati-hati kalau kita salah pilih partisi maka data kita akan hilang semua. pada kasus ini ane menghapus semua partisi dan akan membuat partisi secara otomatis dan karna kita masih pemula jadi ane pilih Guided- use entire disk lalu klik continue sampai muncul gambar dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  14. Data diatas adalah besarnya hardisk yang ane gunakan untuk install kali linux, karna ini cuma buat tutorial jadi ane kasih cuma sedikit ane saranin kasih space partisi lebih besar lagi. klik continue untuk melanjutkan seperti dibawah "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  15.	Pada step ini kita disuruh untuk mengatur partisi untuk menyimpan data, system dan lain-lain, karna kita user pemula ane akan pilih all files in one partition (recommended for new users) lalu klik continue sehingga muncul  seperti"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  16. Yuup tahap ini adalah tahap terakhir pengaturan partisi hardisk, Saran ane atur partisi secara manual tapi ane tidak akan membahasnya disini kalau kalian mau tau cara membuat partisi manual kali linux bisa dilihat diblog http://ad4msan.com/cara-install-kali-linux. Sekali lagi hati-hati mengatur hardisk karna ane pernah kehilangan semua data lepi ane dan rasanya tuh lebih sakit dari pada kehilangan pacar yang ditikung temen sendiri "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  17.	Wokay lanjut cara Install Kali Linux Lengkap ketahap berikutnya pilh \93yes\94 lalu tekan continue pada gambar dibawah " />
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  18. Maka akan terlihat proses instalasi seperti dibawah ini. silahkan tunggu dan biarkan prosesnya berjalan mungkin akan agak lama"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  19.	Setelah proses diatas selesai makan akan muncul dibawah "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  20. Pilih \93yes\94 lalu klik continue maka akan tampil gambar dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  21.	Gambar diatas menjelaskan bahawa apakah kita akan menginstal grub pada partisi hardisk tadi? pilih saja \93yes\94 dan klik continue dan terlihat seperti dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  22. pilih harddisk tadi lalu klik continue dan akan terlihat proses instalasi grub seperti dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  23.	kalau proses diatas sudah selesai maka akan muncul dibawah ini"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="24.	Yoi gambar diatas menandakan bahwa instalasi kali linux kita sudah selesai untuk mengetes nya silahkan klik cntinue maka akaan otomatis restart dan muncul grub "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  13. Instal windows 7 pada partisi baru. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  25.	Tekan Enter maka akan terlihat form login dan kemudian password. user default adalah root passwordnya sesuai yang teman-teman buat diawal instalasi tadi.  "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  14. Tunggu proses transfer file windows 7. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Memulai Proses Instalasi. Proses Instalasi Benar-benar dimulai, kalo sudah sampai langkah ini anda bisa benar-benar bersantai, karena selanjutnya akan berjalan Otomatis. Jangan klik apapun, biarkan saja sampai restart dengan sendirinya. Jika Pada saat\A0Expanding Windows filesada \93error\94, berarti memory laptop/komputer rusak, coba diulang lagi dari awal kalo \93error\94. Kalo lancar, Windows akan restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  15. Proses instalasi otomatis, kemudian akan restart sendiri"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Jika menggunakan DVD tidak melakukan apapun, tapi jika menggunakan Flashdisk setelah gambar tersebut \93restart\94 Flashdisk HARUS dicabut."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  16. Restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Setelah \93Restart\94, pada langkah ini jangan klik apapun, kalo diklik nanti mulai lagi seperti langkah di atas. Jika memakai flashdisk tidak ada gambar diatas, kan dah dicabut."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  17. Biarkan Proses Melanjutkan, jangan klik apapun pada langkah ini."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Menyempurnakan Proses Instalasi Windows. Biarkan saja, jangan klik apapun, kalo gerakin \93mouse\94 atau minum kopi Boleh."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  18. Proses Instalasi Windows hampir selesai, dan akan restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  19. Isi Data-data."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Isi Nama untuk Laptop, Komputer, bebas, Trus Klik \93Next\94."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  20. Isi kata sandi/Password untuk masuk ke windows 7."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Tidak perlu diisi, kecuali Laptop atau komputernya mau pakai \93password\94 atau kata kunci, kemudian klik \93Next\94."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  21. Isi Kode Kunci Produk/Product key\A0windows 7."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Jika sudah memiliki Kode Windows 7, ketik kodenya dalam kotak tersedia, dan klik \93Automatically activate Windows\94. Jika belum mempunyai kode, jangan diisi apapun, Disebelah \93Next\94 nanti ada \93Skip\94, jadi Klik \93Skip\94."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  22. Pilih Set Up Windows "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Sebaiknya memilih/mengklik Ask Me Latter"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  23. Atur waktu. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Pengaturan waktu aktual, sesuaikan waktu yang dikehendaki, kemudian klik Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  24. Proses instalasi windows 7 selesai."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Setiap selesai instalasi windows 7 sebaiknya instal juga driver-windows seperti Graphics, Audio, Network, dan semua yang berhubungan dengan driver sesuai merknya, biasanya ada CD/DVD tersendiri dikasih waktu membeli Laptop atau Komputer, kalo tidak ada harus download. Namun Pada beberapa Merk Laptop, biasanya tidak perlu juga karena sudah terintegrasi dengan Windows 7, dan Driver harus di instal supaya Laptop atau Komputer berjalan dengan semaksimal mungkin, kemudian lengkapilah dengan software pendukungnya."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

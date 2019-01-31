@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround"
+        android:orientation="vertical"
+        tools:context=".Langkah2Win7">
+    <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_marginTop="48dp"
+            android:text="Langkah-Langkah Install windows 7"/>
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="58dp">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="1. Nyalakan PC (Komputer atau Laptop), kemudian masuklah ke Menu BIOS."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Supaya bisa masuk ke MENU BIOS, SAAT menyalakan Laptop atau Komputer seperti gambar diatas, tekan terus-menerus dengan cepat tombol F2, pada beberapa laptop merk lain tekan Esc, F1, F10 atau Del Pada Komputer.
+Catatan: Pada sebagian merk laptop mungkin juga sambil menekan tombol fn bersamaan dengan F1/F2 dst, agar tombol tersebut berfungsi."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="2. Aturlah Booting Awal. "/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Cari Menu Tab Boot untuk mengatur Booting Pertama. Arahkan Boot Pertama Jadi CD-DVD atau Flashdisk sesuai keinginan, Tampilan ini pun beraneka ragam tergantung merk. Ubah Boot pertama pada Menu BIOS Ke CD/DVD atau Flashdisk, namun jika dari Flashdisk ubah boot pertama ke Flashdisk, ini diperlukan agar Booting pertama kali membaca media CD/DVD Windows 7 atau Flashdisk.
+Catatan: Khusus untuk booting pertama dari flashdisk, maka harus masukan terlebih dahulu flashdisk sebelum menyalakan komputer atau laptop."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="3. Simpan Pengaturan BIOS. "/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Klik Exit dan kemudian Exit Saving Changes dengan mengklik Yes. Komputer atau Laptop akan segera Restart dari DVD. Jangan Lupa masukan terlebih dahulu DVD Windows 7 Installer ke Drive DVD, sebelum restart."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="4. Mulai Booting Pertama. "/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="PC akan mulai booting dari DVD Windows 7 Installer. Klik Apa saja pada keyboard, misalnya klik Enter dan waktunya hanya 5 detik, kalo 5 detik ga di klik, proses tidak akan terjadi, harus restart lagi."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="5.Pada Langkah ini tidak melakukan apapun."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Jangan menekan apapun pada keyboard karna akan menyebabkan proses yang sedang berjalan menajadi terganggu dan gagal."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="6. Pilih Bahasa. "/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="pilih bahasa English, Time English (United States) dan keyboard US"/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="7. Mulai Proses Instal. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Klik Install Now untuk memulai instalasi."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="8. Konfirmasi Persetujuan. "/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Klik I accept the license terms, kemudian Klik Next. Klik untuk Persetujuan instalasi."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="9. Pilih opsi lanjutan." />
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Pilihlah opsi lanjutan atau advanced untuk instalasi file sistem windows 7. Masuk BiosPada Langkah ini, sangat penting, Klik Custom advanced. Langkah ini artinya akan menginstal Windows 7 dari awal, sehingga nanti akan seperti baru, dan menghapus semua sistem yang lama."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="10. Atur partisi."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Aturlah partisi sesuai yang dikehendaki. Pada langkah ini Penting Untuk Mengatur Partisi yang akan di-install Windows 7 yang Baru. Gambar diatas merupakan contoh Laptop yang memiliki 3 Partisi, Pertama System Reserved, Kedua Windows 7 lama alias (C:), dan Ketiga Data alias (D:).
+Catatan: Jika pada gambar diatas pada kotak tersebut kosong, artinya hard disk tidak terbaca, maka hardisk kemungkinan rusak atau kurang bagus atau kabel ke hard disk tidak bagus atau tidak terdeteksi."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="11. Hapus Partisi Sistem Lama."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Delete Partisi Sistem Windows sebelumnya yang lama. Dengan Delete Partisi, maka sistem Lama (C:) akan terhapus, dan My Documents pun akan terhapus seluruhnya, karena My Documents termasuk (C:). Jadi kalo simpan Data-data dikemudian hari sebaiknya di (D:) atau (E:). Arahkan kursor untuk menghapus Partisi dengan Klik Delete, kemudian klik OK  OK aja, sampai tampilan pada gambar berikutnya."/>
+                <TextView
+                        android:justificationMode="inter_word"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="12. Buat Partisi baru."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Buatlah partisi yang baru dengan kapasitas atau space hard disk cukup. Arahkan Kursor pada partisi yang akan diisi Windows 7 yang baru, Klik New. Kemudian Klik OK dan OK. Untuk diketahui, disini ada suatu nilai berapa Byte Hard Disk."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="13. Instal windows 7 pada partisi baru. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Teruskan instalasi pada Partisi Baru. Tampilan akan seperti gambar diatas, kemudian arahkan Kursor Pada Partisi yang akan di-install Windows 7 yang baru Primary, Kemudian Klik Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="14. Tunggu proses transfer file windows 7. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Memulai Proses Instalasi. Proses Instalasi Benar-benar dimulai, kalo sudah sampai langkah ini anda bisa benar-benar bersantai, karena selanjutnya akan berjalan Otomatis. Jangan klik apapun, biarkan saja sampai restart dengan sendirinya. Jika Pada saat Expanding Windows filesada error, berarti memory laptop/komputer rusak, coba diulang lagi dari awal kalo error. Kalo lancar, Windows akan restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="15. Proses instalasi otomatis, kemudian akan restart sendiri"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Jika menggunakan DVD tidak melakukan apapun, tapi jika menggunakan Flashdisk setelah gambar tersebut restart Flashdisk HARUS dicabut."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="16. Restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Setelah Restart, pada langkah ini jangan klik apapun, kalo diklik nanti mulai lagi seperti langkah di atas. Jika memakai flashdisk tidak ada gambar diatas, kan dah dicabut."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="17. Biarkan Proses Melanjutkan, jangan klik apapun pada langkah ini."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Menyempurnakan Proses Instalasi Windows. Biarkan saja, jangan klik apapun, kalo gerakin mouse atau minum kopi Boleh."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="18. Proses Instalasi Windows hampir selesai, dan akan restart otomatis."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="19. Isi Data-data."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Isi Nama untuk Laptop, Komputer, bebas, Trus Klik Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="20. Isi kata sandi/Password untuk masuk ke windows 7."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Tidak perlu diisi, kecuali Laptop atau komputernya mau pakai password atau kata kunci, kemudian klik Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="21. Isi Kode Kunci Produk/Product key windows 7."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Jika sudah memiliki Kode Windows 7, ketik kodenya dalam kotak tersedia, dan klik Automatically activate Windows. Jika belum mempunyai kode, jangan diisi apapun, Disebelah Next nanti ada Skip, jadi Klik Skip."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="22. Pilih Set Up Windows "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Sebaiknya memilih/mengklik Ask Me Latter"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="23. Atur waktu. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Pengaturan waktu aktual, sesuaikan waktu yang dikehendaki, kemudian klik Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="24. Proses instalasi windows 7 selesai."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Setiap selesai instalasi windows 7 sebaiknya instal juga driver-windows seperti Graphics, Audio, Network, dan semua yang berhubungan dengan driver sesuai merknya, biasanya ada CD/DVD tersendiri dikasih waktu membeli Laptop atau Komputer, kalo tidak ada harus download. Namun Pada beberapa Merk Laptop, biasanya tidak perlu juga karena sudah terintegrasi dengan Windows 7, dan Driver harus di instal supaya Laptop atau Komputer berjalan dengan semaksimal mungkin, kemudian lengkapilah dengan software pendukungnya."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

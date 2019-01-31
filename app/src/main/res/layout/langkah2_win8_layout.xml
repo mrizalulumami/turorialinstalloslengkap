@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround"
+        android:orientation="vertical"
+        tools:context=".Langkah2Win8">
+    <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_marginTop="48dp"
+            android:text="Langkah-Langkah Install window 8"/>
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="58dp">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:text="1. Nyalakan komputer atau Laptop."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Supayabisamasukke MENU BIOS, SAAT menyalakan Laptop atauKomputersepertigambardiatas, tekanterus-menerusdengancepattombol F2, padabeberapa laptop merk lain tekan Esc, F1, F10 atau Del PadaKomputer.
+Catatan: Padasebagianmerk laptop mungkinjugasambilmenekantombol fn bersamaandengan F1/F2 dst, agar tomboltersebutberfungsi.
+"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="2. Atur Boot Pertama."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#f9f7f7"
+                        android:text="Boot atau Booting Pertama di Menu BIOS pada Laptop, notebook, atau komputer. TAMPILAN MENU BIOS beraneka Ragam Sesuai MERK. Cara mengaturnya terdapat pada Menu BIOS dan untuk masuk BIOS ini tekan terus-menerus Del dengan cepat SAAT Komputer/Laptop dinyalakan, sedangkan pada merk lain tekan tombol F1/F2/F9/F10. Pada sebagian merk laptop mungkin juga sambil menekan tombol fn bersamaan dengan F1/F2 dst, agar tombol tersebut berfungsi."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="3. Simpan mpenagaturan BIOS"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffcfc"
+                        android:text="Setelah Pengaturan Boot sudah benar, simpan save dan restart, kemudian akan tampil seperti gambar di bawah ini, tekan ENTER untuk memulai proses instalasi."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:text="4. Pilihan Bahasa "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="pilih bahasa English, Time English (United States) dan keyboard US
+"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="5. Konfirmasi instalasi"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Klik Install now untuk memulai Proses."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="6. Masukan Product Key"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="biasanya kode ini ada pada bungkus DVD ketika saat membeli atau tanyakan ketika saat membeli."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="7. Konfirmasi Persetujuan. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Klik kotak kecil sebelah kiri bawah sebagai tanda persetujuan I Accept the license terms."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="8. Pilih Custom Advanced. "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:textSize="18dp"
+                        android:text="Ini dilakukan agar instalasi benar-benar baru atau fresh dari awal dan terbebas dari virus."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:text="9. Atur partisi"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Pengaturan Partisi dilakukan untuk pemilihan windows 8 pada partisi tertentu sesuai keinginan. Partisi sistem windows sebelumnya dapat di hapus atau delete dan diganti dengan partisi yang baru. New untuk Membuat Partisi Baru.
+Delete untuk Menghapus Partisi.
+Format untuk Format Partisi.
+Catatan: Lihat di Video untuk lebih jelasnya yang telah disediakan di atas.
+Harap diperhatikan, Pastikan Partisi yang berisi data penting tidak dihapus, ini langkah yang sangat penting dan harus hati-hati, dan jika tidak yakin simpan dulu data penting pada Flashdisk atau tempat lain yang aman.
+Aturlah kursor pada partisi yang diinginkan untuk di install windows 8 yang baru, kemudian klik next seperti gambar di atas untuk melanjutkan proses instalasi.
+ "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="10. Memulai instalasi Windows 8."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fcfcfc"
+                        android:text="Pada tahap ini akan berlangsung secara otomatis, kemudian akan restart pula secara otomatis selama beberapa kali dan biarkan saja jangan klik apapun sampai bertemu dengan gambar langkah selanjutnya.
+Catatan: Jika pada proses ini terdapat error (getting files ready for installation), itu berarti memori kurang bagus, bisa di coba ulang kembali prosesnya atau ganti memorinya.
+"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="11. Pilih Personalisasi  "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Personilize Windows 8, dapat dipilih bebas warna dasar untuk tampilan windows dan memberi nama komputer. kemudisn klik NEXT"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="12. Atur Konfigurasi "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="Konfigurasi atau Setting. Pengaturan ini bisa dipilih Express setting supaya lebih cepat."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="13. Membuat Akun "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="Membuat Akun atau Account yang baru, pilih saja create a local account."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="14. Membuat Nama atau User."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="Isilah nama komputer sesuai keinginan pengguna. untuk pasword sebaiknya tidak usah diisi. Klik FINISH"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="15. Tunggu proses penyiapan aplikasi "/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="Tunggu proses penyiapan aplikasi atau Application, secara Otomatis akan menyiapkan segala aplikasi yang termasuk dalam paket."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+                        android:text="16. Selesai. Selamat Proses instalasi windows 8 telah berhasil.Semoga bermanfaat"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

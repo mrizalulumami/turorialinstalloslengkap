@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround"
+        android:orientation="vertical"
+        tools:context=".Langkah2Win10">
+    <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_marginTop="48dp"
+            android:text="Langkah-Langkah Install windows 10"/>
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="58dp">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:text="      Setelah anda sudah setting BIOS agar booting pertama kali dari DVD, saatnya anda melakukan instalasi windows 10. Simak langkah-langkah berikut ini untuk menginstall windows 10 :"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="  1. Tekan sembarang tombol untuk memulai instalasi windows 10. Misalkan anda dihadapkan kembali dengan tampilan seperti ini pada tengah-tengah proses instalasi, jangan tekan tombol apapun ya, karena anda akan dibawa kembali ke proses awal instalasi jika melakukannya."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="  2. Pilih Indonesian (Indonesia) pada Time and currency format, untuk yang lainnya seperti Language to install dan Keyboard or input method biarkan default, tidak usah diganti."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#f9f7f7"
+                        android:text="  3. Selanjutnya pilih Install now."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="4. Kemudian centang I accept the license terms, lalu pilih Next untuk melanjutkan."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffcfc"
+                        android:text="  5. Pada langkah berikut ini, silakan pilih Custom: Install Windows only (advanced)."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Tahap Partisi (Perhatikan!)"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="      1.Misalkan anda ingin melakukan install ulang maupun upgrade/ downgrade dari sistem operasi windows lama anda ke windows 10, cukup delete Drive 0 Partition 2 (partisi C:)dan Drive 0 Partition 1 : System Reserved, nanti secara otomatis, kedua partisi yang anda hapus tersebut menjadi Unallocated Space (belum dipartisi).
+       2.	Nah, selanjutnya silakan buat partisi baru lagi dan jadikan Drive 0 Partition 2 sebagai lokasi instalasinya, lalu pilih Next untuk melanjutkan. Dengan begitu, data-data pada partisi lain tetap aman (tidak terhapus). Lebih jelasnya, simak gambar gif berikut ini (Jika anda menggunakan ponsel saat membaca tutorial ini, pastikan anda menggunakan browser Chrome atau Mozilla agar gambar gif bergerak dengan sempurna):
+"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="  3. Berikut adalah ruang HDD masih kosong (Unallocated Space). Untuk itu, anda harus mempartisinya. Untuk jumlah partisinya, bisa 2 atau lebih, sesuai keinginan anda."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  4. Silakan pilih Drive 0 Unallocated Space > New, tentukan ukuran partisi tersebut, lalu pilih Apply. Ukurannya jangan terlalu banyak dan jangan terlalu sedikit juga. Misalkan ukuran HDD anda 320GB/ 500GB, beri ukuran 100GB saja sudah cukup, karena partisi yang pertama kali anda buat ini merupakan partisi system (partisi C:)."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  5. Pilih OK untuk pembuatan system reserved partition."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  6. Silakan buat 1 atau lebih partisi lagi dengan cara yang sama seperti pada langkah nomor 8."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  7. Seperti yang anda lihat pada gambar berikut ini, saya hanya membuat 2 partisi utama. Selanjutnya pilih Drive 0 Partition 2 untuk lokasi instalasinya (jangan ditempatkan di partisi lain ya), lalu pilih Next."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  8. Proses instalasi sedang berjalan. Proses ini memakan waktu kira-kira 30 menitan, tunggu saja sambil makan keripik. Oh ya, nantinya komputer/ laptop anda akan restart sendiri berulang kali, jadi jangan kuatir, karena hal tersebut sebagian dari proses instalasi windows 10."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  9. Silakan masukkan product key windows 10 anda, lalu Next. Jika tidak punya, silakan pilih Do this later. Anda bisa mengaktifkan windows 10 anda nanti."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="Setting Desktop Windows 10"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:text="  1. Selanjutnya pilih Use Express settings."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  2. Pilih I own it."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  3. Pada halaman ini anda disuruh login akun microsoft anda. Anda bisa melakukannya nanti, jadi pilih Skip this step."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fcfcfc"
+                        android:text="  4. Silakan masukkan nama komputer anda dan juga password bila perlu (alangkah baiknya diberi password biar tidak sembarang orang dapat mengakses komputer/ laptop anda). Isikan kata atau kalimat yang membantu anda mengingat password anda pada kolom Password hint."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  5. Proses ini tidak memakan waktu banyak kok, tunggu saja sebentar sampai anda dibawa ke dekstop anda."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="  6. Dan taddaaah, instalasi windows 10 berhasil! Berikut tampilan desktop pada windows 10 yang keren dan menarik."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:text="Pastinya ada beberapa hal yang harus anda lakukan, misalkan menginstall antivirus, driver dan lain sebagainya. Untuk lebih jelasnya anda bisa membacanya dibawah ini:"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fffefe"
+                        android:textSize="18dp"
+
+                        android:text="Semoga bermanfaat"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backround"
+        tools:context=".Langkah2Ubun">
+    <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_marginTop="48dp"
+            android:text="Langkah-Langkah Install ubuntu"/>
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="58dp">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="1. Download Ubuntu"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Pertama download dulu Ubuntu 18.04 iso dari situs resmi ubuntu.com."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="2.  Buat bootable menggunakan flashdisk"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Kalau Ubuntu.iso sudah berhasil kamu download, segera buat sebuah bootable flashdisk menggunakan Etcher. Tutorial lengkapnya bisa kamu baca pada artikel Androbuntu yang ini."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="3. Nyalakan laptop dan pasangkan flasdisk"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Kalau sudah, segera hubungkan flashdisk ke laptop atau komputer. Kemudian nyalakan laptop dan boot ke flashdisk dengan menyentuh tombol F7, F11, atau F12 tergabtung dari tipe laptop yang kamu gunakan."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="4. klik tombol Install Ubuntu. Atau kamu juga bisa mencoba dulu Ubuntu melalui live session dengan klik tombol Try Ubuntu."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="5. Pilih bahasa"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Berikutnya pilih bahasa yang ingin digunakan. Saya sarankan untuk gunakan bahasa Inggris saja. Tapi kalau kamu ingin menggunakan bahasa lainnya juga tidak apa. Kemudian klik Continue."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="6. Pilih jenis installasi"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Di sini ada beberapa pilihan yang bisa kamu pilih. Yaitu Normal installation dan Minimal installation. Silahkan pilih Normal installation jika kamu ingin menginstall Ubuntu 18.04 dengan semua software standar yang terdapat di dalamnya. Jika kamu ingin menginstall Ubuntu 18.04 dengan software dasarnya saja, maka pilih saja Minimal installation. Saya sendiri lebih suka menggunakan opsi kedua, yaitu Minimal installation karena nantinya Ubuntu jadi lebih enteng dan bebas dari bloatware. Untuk opsi lainnya biarkan saja, jangan di centang untuk mempercepat proses installasi. Kalau sudah memilih, kemudian klik tombol Continue."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="7. Atur partisis"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Berikutnya saya asumsikan bahwa laptop kamu hanya memiliki satu partisi hard disk. Maka pilih opsi Erase disk and install Ubuntu, kemudian klik tombol Install Now. Kalau kamu ingin membuat partisi, silahkan centang pilihan Something else lalu pilih di partisi mana Ubuntu 18.04 ingin di install."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="8. Konfirmasi Installasi Ubuntu"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Kemudian akan muncul jendela kecil berisi konfirmasi apakah kamu benar-benar ingin menginstall Ubuntu 18.04 pada partisi yang diinginkan atau tidak. Klik tombol Continue."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="9. Set lokasi"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Selanjutnya pilih lokasi dimana kita berada. Biasanya Ubuntu 18.04 dapat mendeteksi lokasi secara akurat hingga tingkat kota. Tapi kalau lokasinya tidak sesuai, kamu bisa sesuaikan sendiri agar akurat. Kemudian klik tombol Continue lagi."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="10. Isi identitas diri"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Berikutnya isikan beberapa informasi mengenai diri kita yang akan digunakan untuk login ke dalam laptop. Mulai dari nama, nama laptop, username, hingga password. Di sini kamu juga bisa memilih opsi apakah ingin otomatis login atau tidak. Kalau sudah di isi semuanya klik tombol Continue."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="11. Memulai proses installasi"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="proses installasi Ubuntu 18.04 sudah dimulai. Kini sistem sedang ditanam ke dalam hard disk laptop kamu. Sampai proses ini, tugas kamu hanyalah menunggu hingga selesai. Kamu bisa lihat progressnya pada garis berwarna oranye yang terletak dibawah."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="12. Restart komputer"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Kalau proses installasi Ubuntu 18.04 sudah selsai, maka akan tampil notifikasi berbunyi Installation is complete. You need to restart the computer in order to use the new installation. Klik saja tombol Restart Now."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="13. Isikan nama anda yang telah di buat"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Laptop kamu kemudian akan restart. Setelah restart kamu bisa login dengan cara klik nama seperti yang kamu buat. Terlihat seperti gambar dibawah ini."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="14. Masukkan Password"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Kemudian silahkan ketik password sesuai dengan password yang tadi kamu buat sebelum proses installasi. Kalau sudah tekan tombol enter atau klik Sign In."/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#fdfdfd"
+                        android:text="Selesai"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

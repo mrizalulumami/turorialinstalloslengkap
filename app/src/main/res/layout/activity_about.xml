@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/baccck"
+        tools:context=".About_class">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+        <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#de0707"
+                android:layout_marginTop="15dp"
+                android:textSize="40dp"
+                android:text="About"/>
+        <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:text="Aplikasi Tutorial Installasi Komputer dibuat guna memenuhi tugas  Matakuliah Pemrograman Mobile.
+    Aplikasi ini di buat secara berkelompok Oleh REH Studios yaitu: Rizal Efendi Halim Sudios, dengan tujuan membantu mahasiswa lainnya, terutama mahasiswa Teknik Informatika yang ingin belajar Installlasi computer. Setelah menginstall aplikasi ini di smartphone masing-masing dan membaca materi yang ada di aplikasi ini, diharapkan mahasiswa/pengguna mampu melakukan installasi computernya sendiri tanpa harus membawanya ke tempat servis. Selamat Mencoba!!!
+    IT TEAM: ABDUL HALIM, M. RIZALUL UMAMI, MUHAMMAD EFENDI"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

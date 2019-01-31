@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.uas.tib.tutorialinstalasicomputerlengkap"
+        >
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ikon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ikon"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".HomeMenu"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity
+                android:name=".Windows7_class"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity
+                android:name=".Windows8_class"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity
+                android:name=".Windows10_class"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity
+                android:name=".Ubuntu_class"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity
+                android:name=".Kali_class"
+                android:screenOrientation="userPortrait"
+                >
+        </activity>
+        <activity android:name=".Langkah2Win7">
+        </activity>
+        <activity
+                android:name=".Simul2Win7"
+                android:screenOrientation="landscape"
+                >
+        </activity>
+        <activity android:name=".Langkah2Win8">
+        </activity>
+        <activity
+                android:name=".Simul2Win8"
+                android:screenOrientation="landscape"
+                >
+        </activity>
+        <activity android:name=".Langkah2Win10">
+        </activity>
+        <activity android:name=".Langkah2Ubun">
+        </activity>
+        <activity android:name=".Langkah2Kali">
+        </activity>
+        <activity
+                android:name=".Simul2Win10"
+                android:screenOrientation="landscape"
+                >
+        </activity>
+        <activity
+                android:name=".Simul2Ubun"
+                android:screenOrientation="landscape"
+                >
+        </activity>
+        <activity
+                android:name=".Simul2Kali"
+                android:screenOrientation="landscape"
+                >
+        </activity>
+        <activity android:name=".About_class">
+        </activity>
+    </application>
+
+</manifest>
